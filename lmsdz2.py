@@ -19,18 +19,8 @@ if len(your_word) == 2:
     print(your_word+your_word)
 elif len(your_word) == 1:
     print()
-elif len(your_word) == 4:
-    print(your_word[0:2] + your_word[2:4])
-elif len(your_word) == 5:
-    print(your_word[0:2]+your_word[3:5])
-elif len(your_word) == 5:
-    print(your_word[0:2] + your_word[3:5])
-elif len(your_word) == 6:
-    print(your_word[0:2]+your_word[4:6])
-elif len(your_word) == 7:
-    print(your_word[0:2]+your_word[5:7])
-elif len(your_word) == 8:
-    print(your_word[0:2]+your_word[6:8])
+elif len(your_word) > 2:
+    print(your_word[0:2]+your_word[-2]+your_word[-1])
 else:
     print(your_word)
 
