@@ -7,7 +7,7 @@ while True:
         print('Ваш номер: +380' + you_number)
         break
     elif len(you_number) != 9:
-        you_number = input(str('Введіть номер: +380'))
+        you_number = input('Введіть номер: +380')
     else:
         print('Ваш номер: +380' + you_number)
         break
